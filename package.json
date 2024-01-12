@@ -1,0 +1,20 @@
+{
+  "name": "1inch-order",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "limit_order": "node limit_order.js",
+    "limit_order_protocol": "node limit_order_protocol.js",
+    "limit_order_alpha": "node limit_order_alpha.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@1inch/limit-order-protocol": "^2.0.5",
+    "@1inch/limit-order-protocol-utils": "^3.2.3",
+    "axios": "^0.24.0",
+    "tslib": "^2.3.1",
+    "web3": "^1.6.1"
+  }
+}
